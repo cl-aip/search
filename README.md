@@ -3,7 +3,7 @@ PAIP original programs on search is modernized here.
 
 The aim of search.lisp is to teach some of search technique in AI, Depth First Search, Breadth First Search, Best First Search, and A* (pronounced [eI] star) algorithm. <br />
 The example adopted here is finding a flight route from Boston to San Francisco by a small airplane that can fly only 1000 km on one flight. This example is roughly same as PAIP, but
-the exact latt&long data of actual airport location was prepared rather than city data as follows.
+the exact lat&long data of actual airport location was prepared rather than city data as follows.
 ```
 (defparameter *cities*
   '((Atlanta      ATL 33.636667  -84.428056)
